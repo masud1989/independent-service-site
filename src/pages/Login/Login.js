@@ -2,7 +2,10 @@ import React, { useRef } from 'react';
 import { Button, Form } from 'react-bootstrap';
 import { useSendPasswordResetEmail, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { toast, ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import auth from '../../firebase.init';
+import SocialLogin from '../SocialLogin/SocialLogin';
 
 
 const Login = () => {
@@ -44,7 +47,8 @@ const Login = () => {
     const resetPassword = async () =>{
         const email = emailRef.current.value;
         await sendPasswordResetEmail(email);
-        // toast('Sent email');
+        toast('Sent email');
+       
     }
 
     return (
@@ -71,8 +75,8 @@ const Login = () => {
         <p>Password Forgotten? <button onClick={resetPassword} className="btn btn-link text-primary text-decoration-none ">Reset Password</button></p>
         <p>New Here?.. <Link to="/register" onClick={navigateRegister}  className="text-warning text-decoration-none">Please Register</Link></p>
         {errorElement}
-        {/* <SocialLogin></SocialLogin>
-        <ToastContainer></ToastContainer> */}
+       <SocialLogin></SocialLogin>
+        <ToastContainer></ToastContainer> 
     </div>
     );
 };
