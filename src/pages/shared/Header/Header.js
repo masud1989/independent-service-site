@@ -16,15 +16,14 @@ const Header = () => {
         // ----
         <Navbar sticky='top' collapseOnSelect expand="lg" bg="info" >
         <Container>
-
         <Navbar.Brand as={Link} to="/"><img height={30} src={logo1} alt=""/></Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"> 
             <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="home#services">Trainings</Nav.Link>
-            <Nav.Link href="home#experts">My Students</Nav.Link>
-            <Nav.Link href="home#experts">My Trainees</Nav.Link>
+            <Nav.Link href="home#trainings">Trainings</Nav.Link>
+            <Nav.Link href="home#students">My Students</Nav.Link>
+            <Nav.Link href="home#experts">My Ex-Trainees</Nav.Link>
             <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
