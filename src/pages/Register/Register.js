@@ -20,15 +20,17 @@ const Register = () => {
     }
 
 
-    const handleRegister = async (event) => {
+    const handleRegister =  (event) => {
         event.preventDefault();
-        console.log(event.target.name.value);
+        // console.log(event.target.name.value);
+        // console.log(event.target.email.value);
+        // console.log(event.target.password.value);
         const name = event.target.name.value;
         const email = event.target.email.value;
         const password = event.target.password.value;
         const agree = event.target.terms.checked;
 
-        await createUserWithEmailAndPassword(email, password);
+         createUserWithEmailAndPassword(email, password);
         // await updateProfile({displayName: name});
         // console.log('Profile Updated');
         console.log('Created');

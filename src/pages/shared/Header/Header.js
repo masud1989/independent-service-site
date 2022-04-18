@@ -42,6 +42,3 @@ const Header = () => {
 };
 
 export default Header;
-
-
-// https://github.com/programming-hero-web-course-4/independent-service-provider-masud1989
