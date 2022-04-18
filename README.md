@@ -14,6 +14,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 - Training Lists
 - Students Reviews
 - Footer Section
+- Auth System
+- Registration System
 
 # What is available in this App?
 1.Responsive Header
@@ -21,6 +23,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 3. Training Lists
 4. Students Reviews
 5. Footer Section
+6. Auth System
+7. Registration System
 
 
 # Live Site Link
