@@ -11,6 +11,7 @@ import About from './pages/About/About';
 import ServiceDetails from './pages/ServiceDetails/ServiceDetails';
 import RequireAuth from './pages/Login/RequireAuth/RequireAuth';
 import Checkout from './pages/Checkout/Checkout';
+import Blogs from './pages/Blogs/Blogs';
 
 
 
@@ -33,6 +34,7 @@ function App() {
         }>
 
         </Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='*' element={<NotFound></NotFound>}></Route>
       </Routes>
       <Footer></Footer>
