@@ -17,6 +17,7 @@ const Header = () => {
         <Navbar sticky='top' collapseOnSelect expand="lg" bg="info" >
         <Container>
         <Navbar.Brand as={Link} to="/"><img height={30} src={logo1} alt=""/></Navbar.Brand>
+        <a className="navbar-brand text-light" href="/">Professional IT Trainer</a>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"> 
