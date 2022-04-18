@@ -32,10 +32,7 @@ const SocialLogin = () => {
                     <img style={{width: '30px'}} src={google} alt=""/>
                     Google Sign In
                 </button>
-                <button  className='btn btn-info w-50 d-block mx-auto my-2 text-white'>
-                    <img style={{width: '30px', marginRight: '10px'}} src={facebook} alt=""/>
-                    Facebook Sign In
-                </button>
+                
                 <button onClick={()=>signInWithGithub()} className='btn btn-info w-50 d-block mx-auto my-2 text-white'>
                     <img style={{width: '30px', marginRight: '10px'}} src={github} alt=""/>
                     Github Sign In
