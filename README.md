@@ -30,6 +30,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 # Live Site Link
 
 Runs the app in browser using Link
-Open [https://masud-phone-reviews.netlify.app/](https://masud-phone-reviews.netlify.app/) to view it in your browser.
+Open [https://prof-it-trainer.netlify.app/](https://prof-it-trainer.netlify.app/) to view it in your browser.
 
 #  =====================Thank You===================
